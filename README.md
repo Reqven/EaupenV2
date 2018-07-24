@@ -4,6 +4,6 @@ You might have to use your own Apple account to compile and sign the application
 
 1st view|2nd view|3rd view| 
 :-------------------------:|:-------------------------:|:---------------------:
-![](https://raw.githubusercontent.com/Reqven/LPEaupen-iOS/master/screenshots/map.jpg)|![](https://raw.githubusercontent.com/Reqven/LPEaupen-iOS/master/screenshots/clicked.jpg)|![](https://raw.githubusercontent.com/Reqven/LPEaupen-iOS/master/screenshots/about.jpg)
+![](https://raw.githubusercontent.com/Reqven/EaupenV2/master/screenshots/map.jpg)|![](https://raw.githubusercontent.com/Reqven/EaupenV2/master/screenshots/clicked.jpg)|![](https://raw.githubusercontent.com/Reqven/EaupenV2/master/screenshots/about.jpg)
 
 
