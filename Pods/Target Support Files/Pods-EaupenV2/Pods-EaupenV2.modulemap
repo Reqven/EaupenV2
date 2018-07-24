@@ -1,0 +1,6 @@
+framework module Pods_EaupenV2 {
+  umbrella header "Pods-EaupenV2-umbrella.h"
+
+  export *
+  module * { export * }
+}

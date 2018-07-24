@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298E345CDCB5666807047567 /* Pods_EaupenV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246C2DA97A90687F7005E72C /* Pods_EaupenV2.framework */; };
+		DC1CAD5B2035C0E700A0940A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CAD5A2035C0E700A0940A /* AppDelegate.swift */; };
+		DC1CAD5D2035C0E700A0940A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CAD5C2035C0E700A0940A /* ViewController.swift */; };
+		DC1CAD602035C0E700A0940A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1CAD5E2035C0E700A0940A /* Main.storyboard */; };
+		DC1CAD622035C0E700A0940A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1CAD612035C0E700A0940A /* Assets.xcassets */; };
+		DC1CAD652035C0E700A0940A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1CAD632035C0E700A0940A /* LaunchScreen.storyboard */; };
+		DC2259672074C36800DCEBED /* AmenityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2259662074C36800DCEBED /* AmenityViewController.swift */; };
+		DC225969207507D900DCEBED /* AmenityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC225968207507D900DCEBED /* AmenityService.swift */; };
+		DC32A6422035CD9B00CDBDA2 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32A6412035CD9B00CDBDA2 /* Amenity.swift */; };
+		DC32A6442035D07A00CDBDA2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32A6432035D07A00CDBDA2 /* Location.swift */; };
+		DC32A6462035D09F00CDBDA2 /* PostalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32A6452035D09F00CDBDA2 /* PostalAddress.swift */; };
+		DC32A6482035D0CD00CDBDA2 /* AmenityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32A6472035D0CD00CDBDA2 /* AmenityClient.swift */; };
+		DC32A64A2035D0E900CDBDA2 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32A6492035D0E900CDBDA2 /* Annotation.swift */; };
+		DC32A64C2035D12000CDBDA2 /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32A64B2035D12000CDBDA2 /* Locator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03163E11DF526E757BB17449 /* Pods-EaupenV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaupenV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaupenV2/Pods-EaupenV2.debug.xcconfig"; sourceTree = "<group>"; };
+		246C2DA97A90687F7005E72C /* Pods_EaupenV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EaupenV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5EE7A9080134A3009346AC /* Pods-EaupenV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaupenV2.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaupenV2/Pods-EaupenV2.release.xcconfig"; sourceTree = "<group>"; };
+		DC1CAD572035C0E700A0940A /* EaupenV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaupenV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1CAD5A2035C0E700A0940A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC1CAD5C2035C0E700A0940A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC1CAD5F2035C0E700A0940A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC1CAD612035C0E700A0940A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC1CAD642035C0E700A0940A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC1CAD662035C0E700A0940A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2259662074C36800DCEBED /* AmenityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenityViewController.swift; sourceTree = "<group>"; };
+		DC225968207507D900DCEBED /* AmenityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenityService.swift; sourceTree = "<group>"; };
+		DC32A6412035CD9B00CDBDA2 /* Amenity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amenity.swift; sourceTree = "<group>"; };
+		DC32A6432035D07A00CDBDA2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DC32A6452035D09F00CDBDA2 /* PostalAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalAddress.swift; sourceTree = "<group>"; };
+		DC32A6472035D0CD00CDBDA2 /* AmenityClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenityClient.swift; sourceTree = "<group>"; };
+		DC32A6492035D0E900CDBDA2 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		DC32A64B2035D12000CDBDA2 /* Locator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1CAD542035C0E700A0940A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298E345CDCB5666807047567 /* Pods_EaupenV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845EBCE4149D0A8B5734AC3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03163E11DF526E757BB17449 /* Pods-EaupenV2.debug.xcconfig */,
+				7C5EE7A9080134A3009346AC /* Pods-EaupenV2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5895A03E7F56F3562386D4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246C2DA97A90687F7005E72C /* Pods_EaupenV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC1CAD4E2035C0E700A0940A = {
+			isa = PBXGroup;
+			children = (
+				DC1CAD592035C0E700A0940A /* EaupenV2 */,
+				DC1CAD582035C0E700A0940A /* Products */,
+				845EBCE4149D0A8B5734AC3F /* Pods */,
+				A5895A03E7F56F3562386D4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1CAD582035C0E700A0940A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1CAD572035C0E700A0940A /* EaupenV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1CAD592035C0E700A0940A /* EaupenV2 */ = {
+			isa = PBXGroup;
+			children = (
+				DC1CAD5A2035C0E700A0940A /* AppDelegate.swift */,
+				DC1CAD5C2035C0E700A0940A /* ViewController.swift */,
+				DC1CAD5E2035C0E700A0940A /* Main.storyboard */,
+				DC1CAD612035C0E700A0940A /* Assets.xcassets */,
+				DC1CAD632035C0E700A0940A /* LaunchScreen.storyboard */,
+				DC1CAD662035C0E700A0940A /* Info.plist */,
+				DC32A6412035CD9B00CDBDA2 /* Amenity.swift */,
+				DC32A6472035D0CD00CDBDA2 /* AmenityClient.swift */,
+				DC225968207507D900DCEBED /* AmenityService.swift */,
+				DC32A6492035D0E900CDBDA2 /* Annotation.swift */,
+				DC32A64B2035D12000CDBDA2 /* Locator.swift */,
+				DC32A6452035D09F00CDBDA2 /* PostalAddress.swift */,
+				DC32A6432035D07A00CDBDA2 /* Location.swift */,
+				DC2259662074C36800DCEBED /* AmenityViewController.swift */,
+			);
+			path = EaupenV2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1CAD562035C0E700A0940A /* EaupenV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1CAD692035C0E700A0940A /* Build configuration list for PBXNativeTarget "EaupenV2" */;
+			buildPhases = (
+				58D754BB41B2368E1D01A6A7 /* [CP] Check Pods Manifest.lock */,
+				DC1CAD532035C0E700A0940A /* Sources */,
+				DC1CAD542035C0E700A0940A /* Frameworks */,
+				DC1CAD552035C0E700A0940A /* Resources */,
+				9374F0B6BBF924682C4176CC /* [CP] Embed Pods Frameworks */,
+				BBAB7434C235895235DCAB28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaupenV2;
+			productName = EaupenV2;
+			productReference = DC1CAD572035C0E700A0940A /* EaupenV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1CAD4F2035C0E700A0940A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Manu Marchand";
+				TargetAttributes = {
+					DC1CAD562035C0E700A0940A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC1CAD522035C0E700A0940A /* Build configuration list for PBXProject "EaupenV2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC1CAD4E2035C0E700A0940A;
+			productRefGroup = DC1CAD582035C0E700A0940A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1CAD562035C0E700A0940A /* EaupenV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1CAD552035C0E700A0940A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1CAD652035C0E700A0940A /* LaunchScreen.storyboard in Resources */,
+				DC1CAD622035C0E700A0940A /* Assets.xcassets in Resources */,
+				DC1CAD602035C0E700A0940A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58D754BB41B2368E1D01A6A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EaupenV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9374F0B6BBF924682C4176CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EaupenV2/Pods-EaupenV2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaupenV2/Pods-EaupenV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAB7434C235895235DCAB28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaupenV2/Pods-EaupenV2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1CAD532035C0E700A0940A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1CAD5D2035C0E700A0940A /* ViewController.swift in Sources */,
+				DC32A6462035D09F00CDBDA2 /* PostalAddress.swift in Sources */,
+				DC32A6482035D0CD00CDBDA2 /* AmenityClient.swift in Sources */,
+				DC2259672074C36800DCEBED /* AmenityViewController.swift in Sources */,
+				DC1CAD5B2035C0E700A0940A /* AppDelegate.swift in Sources */,
+				DC32A64C2035D12000CDBDA2 /* Locator.swift in Sources */,
+				DC32A6442035D07A00CDBDA2 /* Location.swift in Sources */,
+				DC32A64A2035D0E900CDBDA2 /* Annotation.swift in Sources */,
+				DC32A6422035CD9B00CDBDA2 /* Amenity.swift in Sources */,
+				DC225969207507D900DCEBED /* AmenityService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC1CAD5E2035C0E700A0940A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1CAD5F2035C0E700A0940A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC1CAD632035C0E700A0940A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1CAD642035C0E700A0940A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC1CAD672035C0E700A0940A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1CAD682035C0E700A0940A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC1CAD6A2035C0E700A0940A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03163E11DF526E757BB17449 /* Pods-EaupenV2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8G4PL5ET;
+				INFOPLIST_FILE = EaupenV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = reqven.eaupen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC1CAD6B2035C0E700A0940A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5EE7A9080134A3009346AC /* Pods-EaupenV2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8G4PL5ET;
+				INFOPLIST_FILE = EaupenV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = reqven.eaupen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1CAD522035C0E700A0940A /* Build configuration list for PBXProject "EaupenV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1CAD672035C0E700A0940A /* Debug */,
+				DC1CAD682035C0E700A0940A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1CAD692035C0E700A0940A /* Build configuration list for PBXNativeTarget "EaupenV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1CAD6A2035C0E700A0940A /* Debug */,
+				DC1CAD6B2035C0E700A0940A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1CAD4F2035C0E700A0940A /* Project object */;
+}
