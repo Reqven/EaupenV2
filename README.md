@@ -1,6 +1,7 @@
 # EaupenV2
-EaupenV2 is an iOS app which retrieves water points around your current location.
-You might have to use your own Apple account to compile and sign the application in order to make it work.
+EaupenV2 is an iOS app which retrieves water points around your current location.  
+You might have to use your own Apple account to compile and sign the application in order to make it work.  
+**This is a school project.**
 
 1st view|2nd view|3rd view| 
 :-------------------------:|:-------------------------:|:---------------------:
